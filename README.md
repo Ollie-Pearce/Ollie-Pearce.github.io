@@ -1,1 +1,3 @@
-# Ollie-Pearce.github.io
+Ollie Pearce
+
+![Head-Shot](images/head_shot.jpg]
