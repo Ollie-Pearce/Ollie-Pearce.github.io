@@ -1,0 +1,11 @@
+{% if site.data.papers %}
+<ul class="papers">
+  {% for paper in site.data.papers %}
+  <li>
+    <span class="title">{% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</span>
+    {% if paper.authors %}<span class="authors">{{ paper.authors }}</span>{% endif %}
+    {% if paper.venue or paper.year %}<span class="venue">{{ paper.venue }}{% if paper.venue and paper.year %}, {% endif %}{{ paper.year }}</span>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

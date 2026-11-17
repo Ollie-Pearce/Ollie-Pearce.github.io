@@ -1,0 +1,61 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #666666;
+  --link: #1a5fb4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161616;
+    --text: #e6e6e6;
+    --muted: #9a9a9a;
+    --link: #78aeed;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem 16px;
+}
+
+a { color: var(--link); }
+
+h1 { font-size: 1.75rem; margin: 1rem 0 2rem; }
+h2 { font-size: 1.2rem; margin: 2.5rem 0 0.75rem; }
+
+.headshot {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.papers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.papers li { margin-bottom: 1.25rem; }
+
+.papers span { display: block; }
+
+.papers .authors,
+.papers .venue {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
