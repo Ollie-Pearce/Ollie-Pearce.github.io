@@ -6,8 +6,9 @@ layout: default
 # Ollie Pearce
 
 ## Bio
+PhD student at Royal Holloway University of London under the supervison of Julien Lange and Dan O'Keefe.
 
-<!-- Write your bio here, in Markdown -->
+My research involves static and dynamic program analysis, specifically the verification of concurrent Rust code.
 
 ## Papers
 

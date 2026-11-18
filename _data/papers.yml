@@ -4,3 +4,17 @@
 #   venue:
 #   year:
 #   url:      # optional link to PDF/DOI
+#
+
+- title:  "Distrait: Detecting Unsound Rust Trait Implementations at the Ecosystem Scale"
+  authors: Oliver Pearce, Julien Lange, Dan O'Keeffe
+  venue: Under submission
+  year: 2026
+  url: /papers/distrait.pdf
+
+- title: "RustMC: Automated Verification of Real-World Concurrent Rust"
+  authors: Oliver Pearce, Julien Lange, Dan O'Keeffe
+  venue: FORTE
+  year: 2026
+  url: /papers/rustmc.pdf
+
